@@ -19,4 +19,5 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
+Route::get('students',[StudentController::class,'index']);
 Route::post('students',[StudentController::class, 'store']);
